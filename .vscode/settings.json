@@ -1,0 +1,41 @@
+{
+    "python.formatting.provider": "black",
+    "python.formatting.blackPath": "black",
+    "editor.formatOnSave": true,
+    "python.testing.pytestArgs": [
+        "tests"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true,
+    "[python]": {
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        },
+    },
+    "isort.args": [
+        "--profile",
+        "black"
+    ],
+    "indentRainbow.lightIndicatorStyleLineWidth": 1,
+    "files.exclude": {
+        "**/__pycache__": true,
+        "**/.pytest_cache": true,
+        "**/*.egg*": true
+    },
+    "files.watcherExclude": {
+        "**/venv": true,
+        "**/.venv": true
+    },
+    "search.exclude": {
+        "**/venv": true,
+        "**/.venv": true
+    },
+    "todo-tree.filtering.excludeGlobs": [
+        "**/venv",
+        "**/.venv"
+    ],
+    "python.linting.ignorePatterns": [
+        "**/site-packages/**/*.py",
+        ".vscode/*.py",
+    ]
+}

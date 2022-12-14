@@ -1,0 +1,14 @@
+{
+    "recommendations": [
+        "eamodio.gitlens",
+        "ms-python.python",
+        "usernamehw.errorlens",
+        "visualstudioexptteam.vscodeintellicode",
+        "gruntfuggly.todo-tree",
+        "ms-python.flake8",
+        "sonarsource.sonarlint-vscode",
+        "njpwerner.autodocstring",
+        "oderwat.indent-rainbow",
+        "ms-python.isort"
+    ]
+}
